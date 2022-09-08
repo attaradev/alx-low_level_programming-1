@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - A c programme that prints a statement 
  * to the standard output
  * return: return 0
