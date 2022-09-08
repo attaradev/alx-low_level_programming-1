@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * description: print a string of text
  * return: return 0
  *
