@@ -1,9 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - A c programme that prints a statement 
- * to the standard output
- * return: return 0
+ * main - Prints statement
+ *
+ * Description: a C program that prints exactly with proper grammar, but the
+ * outcome is a piece of art, followed by a new line.
+ *
+ * return - Return 0
  *
  */
 int main(void)
