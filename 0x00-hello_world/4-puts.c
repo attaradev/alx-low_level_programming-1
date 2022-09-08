@@ -1,8 +1,12 @@
 #include <stdio.h>
 
 /**
- * description: print a string of text
- * return: return 0
+ * main - Prints statement
+ *
+ * Description: This programme prints exactly Programming is like
+ * building a multilingual puzzle, followed by a new line.
+ *
+ * return: return 0 
  *
  */
 int main(void)
