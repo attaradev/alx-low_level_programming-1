@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <errno.h>
 
 /**
  * main - Prints a statement
