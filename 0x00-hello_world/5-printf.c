@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /*
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - A c programme that prints a statement 
+ * to the standard output
+ * return: return 0
  *
  */
 int main(void)
