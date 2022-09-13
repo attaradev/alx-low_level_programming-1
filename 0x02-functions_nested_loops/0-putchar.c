@@ -1,18 +1,13 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
- * main: Prints a string to the standard output
- * return: Returns 0
+ * main: entry point for code
+ * Description: Prints out _putchar
+ * Return: returns 0
  */
+
 int main(void)
 {
-	int t = "_putchar";
-	
-	while(t != '\0')
-	{
-		putchar(t);
-		t = t+1;
-	}	
-
+	pchar();
 	return (0);
 }
