@@ -16,11 +16,11 @@ void print_to_98(int n)
 
 	for (a = n; a < 98; a++)
 	{
-		printf("%a, a", a);
+		printf("%d, ", a);
 	}
 	for (a = n; a > 98; a--)
 	{
-		printf("%a, ", a);
+		printf("%d, ", a);
 	}
 	printf("98\n");
 }
