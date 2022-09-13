@@ -3,7 +3,7 @@
 /**
  * main: prints _putchar and a new line
  *
- * Description: Prints out _putchar
+ * Description: this programme prints out _putchar
  *
  * Return: returns 0
  */
