@@ -2,7 +2,7 @@
 
 /**
  *
- * print_alphabet_x10 - Outputs values to the standard output
+ * print_alphabet_x10 - Main entry point for programme 
  *
  * Description: Prints out the alphabets 10 times in lower case
  *
@@ -20,5 +20,6 @@ void print_alphabet_x10(void)
 			_putchar(ch);
 		}
 		_putchar('\n');
+		i++;
 	}
 }
