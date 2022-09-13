@@ -1,4 +1,7 @@
-void pchar(void)
+int main(void)
 {
-	printf("_putchar\n");
+	int _putchar(char c);
+	void print_alphabet(void);
+
+	return (0);
 }

@@ -1,9 +1,7 @@
-#include <stdio.h>
-
-/* includes main.h where _putchar is printed from*/
 #include "main.h"
+
 /**
- * main: Prints _putchar and a new line
+ * main - Prints _putchar and a new line
  *
  * Description: This programme prints out _putchar
  *
@@ -12,6 +10,13 @@
 
 int main(void)
 {
-	pchar();
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	return (0);
 }
