@@ -11,9 +11,9 @@ void times_table(void)
 {
 	int a, b, res;
 
-	for (a = 0; a < 9; a++)
+	for (a = 0; a <= 9; a++)
 	{
-		for (b = 0; b < 9; b++)
+		for (b = 0; b <= 9; b++)
 		{
 			res = (a * b);
 			if (b != 0)
