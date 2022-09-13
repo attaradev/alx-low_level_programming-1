@@ -15,11 +15,11 @@ void print_to_98(int n)
 
 	for (a = n; a < 98; a++)
 	{
-		_putchar("%a, a", a);
+		_putchar('%a, a', a);
 	}
 	for (a = n; a > 98; a--)
 	{
-		_putchar("%a, ", a);
+		_putchar('%a, ', a);
 	}
-	_putchar("98\n");
+	_putchar('98\n');
 }
