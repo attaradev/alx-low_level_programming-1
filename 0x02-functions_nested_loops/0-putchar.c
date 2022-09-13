@@ -3,9 +3,9 @@
 /* includes main.h where _putchar is printed from*/
 #include "main.h"
 /**
- * main: prints _putchar and a new line
+ * main: Prints _putchar and a new line
  *
- * Description: this programme prints out _putchar
+ * Description: This programme prints out _putchar
  *
  * Return: returns 0
  */
