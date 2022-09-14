@@ -9,7 +9,7 @@
  *
  * Return: return 0
  */
-int main(void)
+void positive_or_negative(void)
 {
 	int n;
 
@@ -27,5 +27,4 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	return (0);
 }
