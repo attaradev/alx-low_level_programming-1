@@ -7,17 +7,9 @@
  */
 int main(void)
 {
-	int i;
-	i = 98;
+	int i = 98;
 
-	if (i == "" || i == "")
-	{
-		printf("Enter a number!");
-	}
-	else
-	{
-		positive_or_negative(i);
-	}
+	positive_or_negative(i);
 
 	return (0);
 }
