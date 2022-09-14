@@ -9,10 +9,8 @@
  *
  * Return: return 0
  */
-void positive_or_negative(void)
+void positive_or_negative(int n)
 {
-	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
