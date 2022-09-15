@@ -18,4 +18,5 @@ void print_numbers(void)
 	_putchar('7');
 	_putchar('8');
 	_putchar('9');
+	_putchar('\n');
 }
