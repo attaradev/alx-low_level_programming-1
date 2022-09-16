@@ -1,42 +1,39 @@
 #include "main.h"
-void print_integer(int m);
 
 /**
  * print_number - check the code
- * @n: the number to check
- *
- * Return: Return void
- */
-
-void print_number(int n)
-{
-	if (n == 0)
-		_putchar('0');
-	else if (n < 0)
-	{
-		_putchar('-');
-		print_integer(n * -1);
-	}
-	else
-		print_integer(n);
-}
-
-/**
- * print_integer - a function to print a number
- * @m: an input value
+ * @n: number to check
  *
  * Return: void
  */
 
-void print_integer(int m)
+void print_number(int n)
 {
-	int i = 1000000000;
+	unsigned int j, i, base_10 = 1;
 
-	for (; i >= 1; i /= 10)
+	if (n < 0)
 	{
-		if (m / i != 0)
-		{
-			_putchar((m / i) % 10 + '0');
-		}
+		_putchar('-');
+		i = -n;
 	}
+	else
+	{
+		i = n;
+	}
+	j = i;
+
+	while (j > 9)
+	{
+		j /= 10;
+		base_10 *= 10;
+	}
+
+	j = i;
+	while (base_10 > 1)
+	{
+		_putchar((j / base_10) + '0');
+		j %= base_10;
+		base_10 /= 10;
+	}
+	_putchar((i % 10) + '0');
 }
