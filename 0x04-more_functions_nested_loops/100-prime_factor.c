@@ -8,15 +8,20 @@
 
 int main(void)
 {
-	unsigned long int i = 3, n = 612852475143;
+	long int c, b, a = 612852475143;
 
-	for (; i < 12057; i += 2)
+	while (a != 1)
 	{
-		while (n % 1 == 0 && n != i)
+		for (b = 2; b <= a; ++b)
 		{
-			n /= i;
+			if ((a % b) == 0)
+			{
+				break;
+			}
 		}
+		c = a / b;
+		a = c;
 	}
-	printf("%lu\n", n);
+	printf("%li\n", b);
 	return (0);
 }
