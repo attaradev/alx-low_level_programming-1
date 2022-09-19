@@ -1,24 +1,6 @@
 #include "main.h"
 
 /**
- * getlen - get the length of a stringvariable
- * @var: the variable to get length
- *
- * Return: length of the variable
- */
-
-int getlen(char *var)
-{
-	int j = 0;
-
-	while (*(var + 1) != '\0')
-		j++;
-
-	return (j);
-}
-
-
-/**
  * rev_string - reverse a string
  * @s: a string variable to reverse
  *
@@ -27,17 +9,19 @@ int getlen(char *var)
 
 void rev_string(char *s)
 {
-	int i, len;
-	char temp, n;
+	int i, j = 0;
+	char temp;
 
-	len = getlen(s) - 1;
-	i = 0;
+	while (s[j] != '\0')
+	{
+		j++;
+	}
+	j--;
 
-	while (i < len)
+	for (i = 0; i < j; j--, i++)
 	{
 		temp = s[i];
-		n = s[len];
-		s[++i] = temp;
-		s[len--] = n;
+		s[i] = s[j];
+		s[j] = temp;
 	}
 }
