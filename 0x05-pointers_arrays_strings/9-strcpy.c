@@ -8,7 +8,14 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	strcpy(dest, src);
+	int i = 0, count = 0;
+
+	for (; src[i] != '\0'; i++)
+	{
+		dest[i] = src[i];
+		count++;
+	}
+	dest[count] = src[count];
 
 	return (dest);
 }
