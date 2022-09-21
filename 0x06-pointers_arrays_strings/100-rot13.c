@@ -9,7 +9,7 @@
 
 char *rot13(char *m)
 {
-	int i, j;
+	int i = 0, j = 0;
 
 	char lets1[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char lets2[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
@@ -24,5 +24,8 @@ char *rot13(char *m)
 				break;
 			}
 		}
+		i++;
 	}
+
+	return (m);
 }
